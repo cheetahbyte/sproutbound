@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "crafted_dough": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "sproutbound:dough"
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "sproutbound:dough"
+    },
+    "title": {
+      "text": "Master of Dough"
+    },
+    "description": {
+      "text": "You crafted your first dough!"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/wheat_block.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    ["crafted_dough"]
+  ]
+}
