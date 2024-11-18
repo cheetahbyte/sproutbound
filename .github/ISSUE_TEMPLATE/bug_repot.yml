@@ -1,0 +1,43 @@
+name: Bug Report
+description: Report an issue or bug with the mod.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug! Please provide the following information:
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of the problem.
+      placeholder: "What happened? What were you doing?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please list the steps to reproduce the issue.
+      placeholder: "1. Step one\n2. Step two\n3. See error"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Mod Environment
+      description: Include Minecraft version, Fabric/Forge version, and mod version.
+      placeholder: "e.g., Minecraft 1.20.1, Fabric Loader 0.14.19, Mod v1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs/Crash Reports
+      description: Paste your game logs or crash report if applicable.
+      placeholder: "Paste your logs here or link to a Gist/LogPaste."
