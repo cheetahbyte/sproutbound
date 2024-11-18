@@ -6,7 +6,6 @@ import net.minecraft.advancement.Advancement
 import net.minecraft.advancement.AdvancementEntry
 import net.minecraft.advancement.AdvancementFrame
 import net.minecraft.advancement.criterion.InventoryChangedCriterion
-import net.minecraft.item.Items
 import net.minecraft.registry.RegistryWrapper
 import net.minecraft.text.Text
 import net.minecraft.util.Identifier
@@ -22,6 +21,7 @@ class AdvancementsProvider(
         registryLookup: RegistryWrapper.WrapperLookup?,
         consumer: Consumer<AdvancementEntry>?
     ) {
+        // dough
         Advancement.Builder().display(
             ModItems.DOUGH_ITEM, // The display icon
             Text.translatable("advancement.sproutbound.dough.title"), // The title
