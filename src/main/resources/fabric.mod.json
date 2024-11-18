@@ -3,7 +3,7 @@
   "id": "sproutbound",
   "version": "${version}",
   "name": "Sproutbound",
-  "description": "",
+  "description": "farming & culinary expansion for minecraft ",
   "authors": [],
   "contact": {},
   "license": "AGPL-3.0",
@@ -15,6 +15,9 @@
     ],
     "main": [
       "one.orbiq.sproutbound.Sproutbound"
+    ],
+    "fabric-datagen": [
+      "one.orbiq.sproutbound.SproutboundDataGenerator"
     ]
   },
   "mixins": [
@@ -24,6 +27,7 @@
       "environment": "client"
     }
   ],
+
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-language-kotlin": ">=${kotlin_loader_version}",

@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "made_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "sproutbound:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancement.sproutbound.dough.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "sproutbound:dough"
+    },
+    "title": {
+      "translate": "advancement.sproutbound.dough.title"
+    }
+  },
+  "requirements": [
+    [
+      "made_dough"
+    ]
+  ]
+}

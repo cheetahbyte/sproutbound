@@ -1,4 +1,7 @@
 {
   "item.sproutbound.dough": "Teig",
-  "item.sproutbound.flour": "Mehl"
+  "item.sproutbound.flour": "Mehl",
+  "advancement.sproutbound.dough.title": "Knetharte Fakten",
+  "advancement.sproutbound.dough.description": "Du hast Teig gemacht! Jetzt gibt’s kein Zurück mehr."
+
 }

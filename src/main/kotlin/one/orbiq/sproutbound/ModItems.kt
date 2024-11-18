@@ -27,8 +27,8 @@ object ModItems {
         Registry.register(Registries.ITEM_GROUP, Identifier.of(Sproutbound.MOD_ID, "sproutbound"), SPROUTBOUND_GROUP)
     }
 
-    private val DOUGH_ITEM = register(DoughItem(Item.Settings().food(DoughItem.CUSTOM_FOOD)), "dough")
-    private val FLOUR_ITEM = register(FlourItem(Item.Settings()), "flour")
+    val DOUGH_ITEM = register(DoughItem(Item.Settings().food(DoughItem.CUSTOM_FOOD)), "dough")
+    val FLOUR_ITEM = register(FlourItem(Item.Settings()), "flour")
 
     private val SPROUTBOUND_GROUP: ItemGroup = FabricItemGroup.builder()
         .displayName(Text.translatable("sproutbound.group"))

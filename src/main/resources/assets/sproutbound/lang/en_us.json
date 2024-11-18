@@ -1,5 +1,7 @@
 {
   "sproutbound.group": "Sproutbound",
   "item.sproutbound.dough": "Dough",
-  "item.sproutbound.flour": "Flour"
+  "item.sproutbound.flour": "Flour",
+  "advancement.sproutbound.dough.title": "The Yeast You Can Do",
+  "advancement.sproutbound.dough.description": "You kneaded this. Literally."
 }
