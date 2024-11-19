@@ -1,8 +1,7 @@
-# 🌱 Sproutbound
+# <img src="src/main/resources/assets/sproutbound/icon.png"/> Sproutbound
+
 
 **Sproutbound** is a Minecraft mod that enhances your farming and cooking experience, bringing new crops, recipes, and items to your world. With hand-drawn visuals and exciting mechanics, this mod is perfect for adventurers, chefs, and farmers alike! 🧑‍🌾🍞
-
----
 
 ## ✨ Features
 
@@ -12,13 +11,9 @@
 - 🏆 **Unlock Achievements**: Progress through custom advancements as you explore and master the mod.  
 - 🔗 **Seamless Integration**: Fits naturally into vanilla Minecraft while adding depth and charm.  
 
----
-
 ## 🛠️ Installation
 
 SOON
-
----
 
 ## 🧪 Recipes & Advancements
 
