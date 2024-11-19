@@ -22,8 +22,6 @@ SOON
 - **Achievements**:  
   - 🥖 **Master of Dough**: Unlock this advancement by crafting your first dough.
 
----
-
 ## 📦 Contributing
 
 Contributions are welcome! 🚀 Whether you're fixing bugs, suggesting features, or adding content, we value your input.
@@ -33,8 +31,6 @@ Contributions are welcome! 🚀 Whether you're fixing bugs, suggesting features,
 2. Create a branch for your feature or fix.  
 3. Submit a pull request with a detailed description of your changes.  
 
----
-
 ## 👏 Credits
 
 - **Development**: [Cheetahbyte](https://github.com/cheetahbyte)  
@@ -43,7 +39,6 @@ Contributions are welcome! 🚀 Whether you're fixing bugs, suggesting features,
 
 A huge thank you to everyone who supports and contributes to Sproutbound! 💚  
 
----
 
 ## ⚖️ License
 
@@ -55,7 +50,6 @@ You are free to:
 
 For more details, see the [LICENSE](LICENSE) file.  
 
----
 
 ## 💬 Support
 
