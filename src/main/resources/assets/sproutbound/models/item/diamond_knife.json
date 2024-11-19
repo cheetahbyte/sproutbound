@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sproutbound:item/diamond_knife"
+  }
+}

@@ -11,6 +11,7 @@ import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import one.orbiq.sproutbound.items.DoughItem
 import one.orbiq.sproutbound.items.FlourItem
+import one.orbiq.sproutbound.items.ModKnifes
 
 object ModItems {
     private fun register(item: Item, id: String): Item{
@@ -20,6 +21,7 @@ object ModItems {
     }
 
     fun initialize() {
+        ModKnifes.initialize()
         group()
     }
 
@@ -37,6 +39,7 @@ object ModItems {
             // Automatically adds all items registered in this mod
             entries.add(DOUGH_ITEM)
             entries.add(FLOUR_ITEM)
+            ModKnifes.getKnifes().forEach { entry -> entries.add(entry) }
         }
         .build()
 }

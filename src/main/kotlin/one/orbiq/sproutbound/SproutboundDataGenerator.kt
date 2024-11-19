@@ -13,6 +13,8 @@ import net.minecraft.item.Items
 import net.minecraft.registry.RegistryWrapper
 import net.minecraft.text.Text
 import one.orbiq.sproutbound.datagen.AdvancementsProvider
+import one.orbiq.sproutbound.datagen.ItemTagProvider
+import one.orbiq.sproutbound.datagen.RecipeProvider
 import java.util.concurrent.CompletableFuture
 import java.util.function.Consumer
 
@@ -23,5 +25,10 @@ class SproutboundDataGenerator : DataGeneratorEntrypoint {
         pack.addProvider { output: FabricDataOutput, lookup: CompletableFuture<RegistryWrapper.WrapperLookup> ->
             AdvancementsProvider(output, lookup)
         }
+        pack.addProvider { output: FabricDataOutput, registries: CompletableFuture<RegistryWrapper.WrapperLookup> ->
+            RecipeProvider(output, registries)
+        }
+
+        pack.addProvider { output, registries -> ItemTagProvider(output, registries) }
     }
 }

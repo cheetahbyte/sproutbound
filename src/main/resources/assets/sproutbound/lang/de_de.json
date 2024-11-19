@@ -2,6 +2,17 @@
   "item.sproutbound.dough": "Teig",
   "item.sproutbound.flour": "Mehl",
   "advancement.sproutbound.dough.title": "Knetharte Fakten",
-  "advancement.sproutbound.dough.description": "Du hast Teig gemacht! Jetzt gibt’s kein Zurück mehr."
-
+  "advancement.sproutbound.dough.description": "Du hast Teig gemacht! Jetzt gibt’s kein Zurück mehr.",
+  "advancement.sproutbound.netherite_knife.description": "Ein Messer aus Netherite? Für die wirklich harten Brote.",
+  "advancement.sproutbound.netherite_knife.title": "Zweckentfremdung",
+  "sproutbound.group": "Sproutbound",
+  "item.sproutbound.stone_knife": "Steinmesser",
+  "item.sproutbound.iron_knife": "Eisenmesser",
+  "item.sproutbound.gold_knife": "Goldmesser",
+  "item.sproutbound.diamond_knife": "Diamantmesser",
+  "item.sproutbound.netherite_knife": "Netheritmesser",
+  "advancement.sproutbound.knife.title": "Messerscharfe Ambitionen",
+  "advancement.sproutbound.knife.description": "Das Messer: Ein Werkzeug für Küche und Chaos.",
+  "advancement.sproutbound.root.title": "Sproutbound",
+  "advancement.sproutbound.root.description": "Die Wurzeln des Erfolgs."
 }

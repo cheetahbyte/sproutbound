@@ -1,11 +1,11 @@
 {
-  "parent": "sproutbound:root",
+  "parent": "sproutbound:knife_collector",
   "criteria": {
-    "made_dough": {
+    "crafted_netherite_knife": {
       "conditions": {
         "items": [
           {
-            "items": "sproutbound:dough"
+            "items": "sproutbound:netherite_knife"
           }
         ]
       },
@@ -15,19 +15,21 @@
   "display": {
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "description": {
-      "translate": "advancement.sproutbound.dough.description"
+      "translate": "advancement.sproutbound.netherite_knife.description"
     },
+    "frame": "challenge",
+    "hidden": true,
     "icon": {
       "count": 1,
-      "id": "sproutbound:dough"
+      "id": "sproutbound:netherite_knife"
     },
     "title": {
-      "translate": "advancement.sproutbound.dough.title"
+      "translate": "advancement.sproutbound.netherite_knife.title"
     }
   },
   "requirements": [
     [
-      "made_dough"
+      "crafted_netherite_knife"
     ]
   ]
 }

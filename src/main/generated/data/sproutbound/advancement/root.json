@@ -1,7 +1,6 @@
 {
-  "parent": "sproutbound:root",
   "criteria": {
-    "made_dough": {
+    "has_dough": {
       "conditions": {
         "items": [
           {
@@ -15,19 +14,19 @@
   "display": {
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "description": {
-      "translate": "advancement.sproutbound.dough.description"
+      "translate": "advancement.sproutbound.root.description"
     },
     "icon": {
       "count": 1,
-      "id": "sproutbound:dough"
+      "id": "minecraft:wheat_seeds"
     },
     "title": {
-      "translate": "advancement.sproutbound.dough.title"
+      "translate": "advancement.sproutbound.root.title"
     }
   },
   "requirements": [
     [
-      "made_dough"
+      "has_dough"
     ]
   ]
 }

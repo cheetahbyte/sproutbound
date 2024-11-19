@@ -2,6 +2,17 @@
   "sproutbound.group": "Sproutbound",
   "item.sproutbound.dough": "Dough",
   "item.sproutbound.flour": "Flour",
+  "item.sproutbound.stone_knife": "Stone Knife",
+  "item.sproutbound.iron_knife": "Iron Knife",
+  "item.sproutbound.gold_knife": "Gold Knife",
+  "item.sproutbound.diamond_knife": "Diamond Knife",
+  "item.sproutbound.netherite_knife": "Netherite Knife",
   "advancement.sproutbound.dough.title": "The Yeast You Can Do",
-  "advancement.sproutbound.dough.description": "You kneaded this. Literally."
+  "advancement.sproutbound.dough.description": "You kneaded this. Literally.",
+  "advancement.sproutbound.netherite_knife.description": "Congratulations! You just squandered the rarest material in the game.",
+  "advancement.sproutbound.netherite_knife.title": "Cutting-Edge Choices",
+  "advancement.sproutbound.knife.title": "Knives Out",
+  "advancement.sproutbound.knife.description": "Ready to cut through mobs, food, and expectations.",
+  "advancement.sproutbound.root.title": "Sproutbound",
+  "advancement.sproutbound.root.description": "The Path to Culinary Greatness."
 }

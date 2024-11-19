@@ -1,11 +1,11 @@
 {
   "parent": "sproutbound:root",
   "criteria": {
-    "made_dough": {
+    "has_knife": {
       "conditions": {
         "items": [
           {
-            "items": "sproutbound:dough"
+            "items": "#sproutbound:knife"
           }
         ]
       },
@@ -15,19 +15,19 @@
   "display": {
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "description": {
-      "translate": "advancement.sproutbound.dough.description"
+      "translate": "advancement.sproutbound.knife.description"
     },
     "icon": {
       "count": 1,
-      "id": "sproutbound:dough"
+      "id": "sproutbound:stone_knife"
     },
     "title": {
-      "translate": "advancement.sproutbound.dough.title"
+      "translate": "advancement.sproutbound.knife.title"
     }
   },
   "requirements": [
     [
-      "made_dough"
+      "has_knife"
     ]
   ]
 }
