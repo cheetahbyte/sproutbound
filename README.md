@@ -15,13 +15,6 @@
 
 SOON
 
-## 🧪 Recipes & Advancements
-
-- **Craft Dough**: Combine `Flour` and a `Water Bucket` to create `Dough`.  
-- **Bake Delicious Treats**: Cook `Dough` in a furnace or campfire.  
-- **Achievements**:  
-  - 🥖 **Master of Dough**: Unlock this advancement by crafting your first dough.
-
 ## 📦 Contributing
 
 Contributions are welcome! 🚀 Whether you're fixing bugs, suggesting features, or adding content, we value your input.
